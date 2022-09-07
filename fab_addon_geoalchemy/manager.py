@@ -1,5 +1,5 @@
 import logging
-from flask_appbuilder.basemanager import BaseManager
+from flask.ext.appbuilder.basemanager import BaseManager
 from flask_babel import lazy_gettext as _
 from flask import Blueprint, url_for
 
